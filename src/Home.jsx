@@ -831,7 +831,7 @@ export const Home = () => {
                 <div className="mx-auto text-center">
                     <img className="img-fluid" style={{ width: "5rem" }} src="https://cbit.edu.in/wp-content/uploads/2023/05/cbit.png" alt="" />
                     <p style={{ color: "#8A8A8E" }} className="text-center">
-                        Copyright © 2024 www.cbit.edu.in | Designed by
+                        Copyright © 2024 www.cbit.edu.in | Designed 
                         <span style={{ color: "#1E77D1" }}> Shadow coders <img style={{ width: "1rem" }} className="img-fluid" src="https://www.briaux.com/briaux16.png" alt="" /></span>
                     </p>
                 </div>

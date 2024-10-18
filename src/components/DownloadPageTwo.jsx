@@ -9,48 +9,171 @@ const DownloadPageTwo = () => {
         "CSE(Artificial Intelligence & Machine Learning)",
         "Electronics & Communication Engineering",
         "Electrical and Electronics Engineering",
-        "Mechanical Engineering"
+        "Mechanical Engineering",
+        "Civil Engineering"
 
     ]
     const semisterPaper = [
-        ["Discrete Mathematics & Graph Theory ", "Universal Human Values 2", "Advanced Data Structures & Algorithms Analysis", "Object-Oriented Programming Through JAVA ", "Environmental Science", "Digital Logic and Computer Organization "],
-        ["Discrete Mathematics & Graph Theory ", "Universal Human Values 2", "Advanced Data Structures & Algorithms Analysis", "Object-Oriented Programming Through JAVA ", "Environmental Science", "Introduction To Data Science "],
-        ["Discrete Mathematics & Graph Theory ", "Universal Human Values 2", "Advanced Data Structures & Algorithms Analysis", "Object-Oriented Programming Through JAVA ", "Environmental Science", "Artificial Intelligence "],
-        ["Discrete Mathematics & Graph Theory ", "Universal Human Values 2", "Advanced Data Structures & Algorithms Analysis", "Object-Oriented Programming Through JAVA ", "Environmental Science", "Artificial Intelligence "],
-        [],
+        [
+            "Discrete Mathematics & Graph Theory ", 
+            "Universal Human Values 2",
+            "Advanced Data Structures & Algorithms Analysis", 
+            "Object-Oriented Programming Through JAVA ",
+            "Environmental Science",
+            "Digital Logic and Computer Organization "
+        ],
+        [
+            "Discrete Mathematics & Graph Theory ",
+            "Universal Human Values 2",
+            "Advanced Data Structures & Algorithms Analysis",
+            "Object-Oriented Programming Through JAVA ",
+            "Environmental Science",
+            "Introduction To Data Science "
+        ],
+        [
+            "Discrete Mathematics & Graph Theory ",
+            "Universal Human Values 2",
+            "Advanced Data Structures & Algorithms Analysis",
+            "Object-Oriented Programming Through JAVA ",
+            "Environmental Science",
+            "Artificial Intelligence "
+        ],
+        [
+            "Discrete Mathematics & Graph Theory ",
+            "Universal Human Values 2",
+            "Advanced Data Structures & Algorithms Analysis",
+            "Object-Oriented Programming Through JAVA ",
+            "Environmental Science",
+            "Artificial Intelligence "
+        ],
+        [
+            "Probability And Complex Variables",
+            "Universal Human Values 2",
+            "Electronic Devises And Circuits",
+            "Digital Circuit Design",
+            "Environmental Science",
+            "Signals,Systems And Stochastis",
+        ],
+        [
+            "COMPLEX VARIABLES & NUMERICAL METHODS",
+            "UNIVERSAL HMAN VALUES 2-UNDERSTANDING HARMONY & ETHICAL HUMAN CONDUCT",
+            "ELECTROMAGNETIC FIELD THEORY",
+            "ELECTRICAL CIRCUIT ANALYSIS-II",
+            "DC MACHINES & TRANSFORMERS",
+            "ENVIRONMENTAL SCIENCE"
+        ],
         [],
         []
     ]
     const semisterPaperDownloads = [
-         [["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-         ["IMportant Questions ","IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"],
-        ["IMportant Questions ", "IMportant Questions With Answers ", "Study Material All Units ", "Preious Year Questio Papers"]],
-        [[]],
-        [[]],
-        [[]],
-        [[]],
-        [[]],
-        [[]],
-    ]
-    const semisterPaperDownloadsPdfs = [
-        [["https://drive.google.com/file/d/1IKapXOlKDi_Lolw2QeKyHDJzK9f91Y8n/view?usp=sharing", "https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing", "https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing", "https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing", "https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing", "https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing", "https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing", "https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"],
-         ["https://drive.google.com/file/d/1kh4-VjiLR6r8cL-HOyWjs70R52stWBB-/view?usp=sharing", "https://drive.google.com/file/d/1sNpinwHuO2Tn4488LHJA5WtfOLHD2kWw/view?usp=sharing", "https://drive.google.com/file/d/10hzX3s5aq_yeSRXkORclB6djFUg3Mrtx/view?usp=sharing", "https://drive.google.com/file/d/1Y_OOwBH7B9e-PwlRF1ayvxZ9uwcixZjf/view?usp=sharing", "https://drive.google.com/file/d/1aPyHdT8Q9sHjrlXqAl_9N5pxiOublsbc/view?usp=sharing", "https://drive.google.com/file/d/1hSajg9-YdyemFrLTYe-KinV9NpcKZDFO/view?usp=sharing", "https://drive.google.com/file/d/1VaiSWFKjK1IOA38CG9Jy44fxT9to_siH/view?usp=sharing", "https://drive.google.com/file/d/1bbVhr5yoMroQibHMOabuItvi9kOEeq2h/view?usp=sharing", "https://drive.google.com/file/d/1Xgcm6iDbWs_vhkWkppPnM4ZXIEuU9Bas/view?usp=sharing", "https://drive.google.com/file/d/1KB1G_cjyIJFPOLCmHmzkpX9wogeWEPVX/view?usp=sharing"],
-        [],
-        [],
-        [],
-        [],
-        [],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+        ],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+        ],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+        ],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+        ],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+        ],
+        [
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
         ],
         [[]],
+        [[]]
+    ]
+    const semisterPaperDownloadsPdfs = [
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
+        [
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+
+        ],
         [[]],
-        [[]],
-        [[]],
-        [[]],
-        [[]],
+        [[]]
     ]
 
 

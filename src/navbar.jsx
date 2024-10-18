@@ -288,18 +288,19 @@ function Navbar() {
                             <i onClick={() => setstudent(!student)} style={{ fontSize: "" }} className="fa-solid border rounded-circle border-dark p-2 text-dark fa-chevron-down ms-3"></i>
 
                         </div>
-                        {/* {
+                        {
 
                             student &&
                         <div style={{ zIndex: 999, background: "#6755A3" }} className="fs-6 gap-3 d-flex flex-column p-2">
 
-                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/download">Preious Year Question Papers </a></li>
-                            <li onClick={()=>navigate('/download')} ><a className="dropdown-item" href="/download">Question Banks </a></li>
-                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" href="/download">Study Materials </a></li>
+                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" >1st Year </a></li>
+                            <li onClick={()=>navigate('/downloadtwo')} ><a className="dropdown-item" >2nd Year </a></li>
+                            <li onClick={()=>navigate('/downloadthree')} > <a className="dropdown-item" >3rd Year </a></li>
+                            <li onClick={()=>navigate('/downloadfour')} > <a className="dropdown-item">4th Year </a></li>
 
                         </div>
 
-                        } */}
+                        }
                     </div>
                 </li>
 
@@ -554,13 +555,27 @@ function Navbar() {
                         </div>
                     </li>
 
+                    {/* <li onClick={()=>{navigate("/Download")}}><span className='span fs-6'>Student Corner</span></li> */}
 
+                    <li>
+                        <div className="dropdown fs-6">
+                            <div className="d-inline-flex align-items-center">
+                                <span>Student Corner</span>
+                                <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-down ms-3"></i>
+                            </div>
+                            <div className="dropdown-menu fs-6 ">
+                            <li onClick={()=>navigate('/download')} > <a className="dropdown-item" >1st Year </a></li>
+                            <li onClick={()=>navigate('/downloadtwo')} ><a className="dropdown-item" >2nd Year </a></li>
+                            <li onClick={()=>navigate('/downloadthree')} ><a className="dropdown-item" >3rd Year </a></li>
+                            <li onClick={()=>navigate('/downloadfour')} ><a className="dropdown-item" >4th Year </a></li>
 
-    
+                            </div>
+                        </div>
+                    </li>
+
                     <li>
                         <a href="https://cbit.edu.in/contact/">Contact</a>
                     </li>
-                    <li onClick={()=>{navigate("/Download")}}><span className='span fs-6'>Student Corner</span></li>
 
 
                     <span className=''>

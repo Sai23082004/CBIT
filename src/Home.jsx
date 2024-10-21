@@ -12,6 +12,9 @@ import tony from '../public/images/tony.jpg'
 import moma from '../public/images/moma.jpg'
 import bavi1 from '../public/images/bavi1.jpg'
 import sai1 from '../public/images/sai1.jpg'
+import bavin from '../public/images/bavin.jpg'
+import saikiran from '../public/images/saikiran.jpg'
+import sain from '../public/images/sain.jpg'
 
 
 
@@ -367,7 +370,7 @@ export const Home = () => {
                         <div className="row p-4">
                             <div className="col-md-4 mb-5">
                                 <div style={{ borderWidth: '2px', borderRadius: '20px', borderStyle: 'solid', paddingBottom: '20px', borderColor: 'black', padding: '3px' }} className="position-relative flex-column d-flex justify-content-center align-items-center">
-                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "400px", position: 'relative',height: "350px" }} src={(sai)} alt="" />
+                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "400px", position: 'relative',height: "350px" }} src={(saikiran)} alt="" />
                                     {/* <img className="img-fluid" style={{ borderRadius: '20px', height: "17rem", width: "40rem", position: 'relative', top: '-70px' }} src={saikiran2} alt="" /> */}
                                     <div className="pt-4" style={{ position: 'relative', }}>
                                         <h5 className="text-center fw-bold">G . Sai Kiran </h5>
@@ -378,7 +381,7 @@ export const Home = () => {
 
                             <div className="col-md-4 mb-5">
                                 <div style={{ borderWidth: '2px', borderRadius: '20px', borderStyle: 'solid', paddingBottom: '20px', borderColor: 'black', padding: '3px' }} className="position-relative flex-column d-flex justify-content-center align-items-center">
-                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "700px", position: 'relative' ,height: "350px"}} src={(bavi)} alt="" />
+                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "700px", position: 'relative' ,height: "350px"}} src={(bavin)} alt="" />
                                     {/* <img className="img-fluid" style={{ borderRadius: '20px', height: "17rem", width: "40rem", position: 'relative', top: '-70px' }} src={saikiran2} alt="" /> */}
                                     <div className="pt-4" style={{ position: 'relative', }}>
                                         <h5 className="text-center fw-bold">K. Bhavana </h5>

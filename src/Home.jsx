@@ -2,15 +2,11 @@ import { useEffect, useRef, useState } from "preact/hooks"
 import Navbar from "./navbar"
 import './cssPages/home.css'
 import vision from '../public/images/vision.png'
-import saikiran2 from '../public/images/saikiran2.jpg'
 import hod from '../public/images/hod.jpg'
-import sai from '../public/images/sai.jpg'
 import abba from '../public/images/abba.jpg'
-import bavi from '../public/images/bavi.jpg'
 import gs from '../public/images/gs.jpg'
 import tony from '../public/images/tony.jpg'
 import moma from '../public/images/moma.jpg'
-import bavi1 from '../public/images/bavi1.jpg'
 import sai1 from '../public/images/sai1.jpg'
 import bavin from '../public/images/bavin.jpg'
 import saikiran from '../public/images/saikiran.jpg'
@@ -370,7 +366,7 @@ export const Home = () => {
                         <div className="row p-4">
                             <div className="col-md-4 mb-5">
                                 <div style={{ borderWidth: '2px', borderRadius: '20px', borderStyle: 'solid', paddingBottom: '20px', borderColor: 'black', padding: '3px' }} className="position-relative flex-column d-flex justify-content-center align-items-center">
-                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "400px", position: 'relative',height: "350px" }} src={(saikiran)} alt="" />
+                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "400px", position: 'relative',height: "350px" }} src={(sain)} alt="" />
                                     {/* <img className="img-fluid" style={{ borderRadius: '20px', height: "17rem", width: "40rem", position: 'relative', top: '-70px' }} src={saikiran2} alt="" /> */}
                                     <div className="pt-4" style={{ position: 'relative', }}>
                                         <h5 className="text-center fw-bold">G . Sai Kiran </h5>

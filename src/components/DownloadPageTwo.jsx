@@ -19,8 +19,8 @@ const DownloadPageTwo = () => {
             "Universal Human Values 2",
             "Advanced Data Structures & Algorithms Analysis", 
             "Object-Oriented Programming Through JAVA ",
-            "Environmental Science",
-            "Digital Logic and Computer Organization "
+            "Digital Logic and Computer Organization ",
+            "Environmental Science"
         ],
         [
             "Discrete Mathematics & Graph Theory ",
@@ -68,11 +68,11 @@ const DownloadPageTwo = () => {
     const semisterPaperDownloads = [
         [
             ["Syllabus","Study Material All Units ","Previous Year Question Papers","Only Questions (All Units)"],
-            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
-            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
-            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
-            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
-            ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
+            ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
         ],
         [
             ["Syllabus","Study Material All Units ","Previous Year Question Papers","Important Questions With Answers"],
@@ -120,11 +120,11 @@ const DownloadPageTwo = () => {
     const semisterPaperDownloadsPdfs = [
         [
             ["https://drive.google.com/file/d/1OA1RbB-0wq5ZSe3lzwwppS36IvsrUTLy/view?usp=sharing","https://drive.google.com/file/d/1StUNnJE9ZHi8d6gX-vW0H28ISJLeJvMZ/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1GxA8bD9h3B8pKnAw0d6PAsh25T87OqTP/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1WzZEZGf64r022nlR2Apyan7qN00GUIzs/view?usp=sharing","https://drive.google.com/file/d/1ogee9D4lgqYfJfBx1WSGBPpaYAd4sfjB/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1GWchwmrxPznIJNg8M6Sl91r3fGcuBOd7/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1DpZ61Zm5bmpuRh1Bec9TF513j-8k_0Rg/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/19UvArFR1gm7ApFB-_6zQ93Jvr1T4N0nJ/view?usp=sharing","https://drive.google.com/file/d/1nXFqX2qsMUEr0RN96nIPCT2ll1XAEhzD/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],
         [

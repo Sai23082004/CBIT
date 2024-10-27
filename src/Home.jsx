@@ -377,7 +377,7 @@ export const Home = () => {
 
                             <div className="col-md-4 mb-5">
                                 <div style={{ borderWidth: '2px', borderRadius: '20px', borderStyle: 'solid', paddingBottom: '20px', borderColor: 'black', padding: '3px' }} className="position-relative flex-column d-flex justify-content-center align-items-center">
-                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "700px", position: 'relative' ,height: "350px"}} src={(bavin)} alt="" />
+                                    <img className="img-fluid" style={{ borderRadius: '20px', width: "700px", position: 'relative' ,height: "350px"}} src={(sain)} alt="" />
                                     {/* <img className="img-fluid" style={{ borderRadius: '20px', height: "17rem", width: "40rem", position: 'relative', top: '-70px' }} src={saikiran2} alt="" /> */}
                                     <div className="pt-4" style={{ position: 'relative', }}>
                                         <h5 className="text-center fw-bold">K. Bhavana </h5>

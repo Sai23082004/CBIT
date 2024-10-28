@@ -83,24 +83,24 @@ const DownloadPage = () =>
     ]
     const qbd = [
     [
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
-        ["Syllabus","Study Material All Units ","Previous Year Question Papers"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
+        ["Syllabus","Study Material All Units ","Previous Year Question Papers","UNIT WISE QUESTIONS"],
     ],
     
     ]
     const qbdf = [
     [
         ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1nfhd3fqnvb1tXRCNSoLy19BPDRBOK2v_/view?usp=drive_link"],
-        ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1f9qMMO4KQsIvBlwD2RKGt7fQFjNTRnar/view?usp=drive_link"],
+        ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/11xKV5vqYzWRF3jFaQehZztWkYyp8PqU8/view?usp=sharing","https://drive.google.com/file/d/1f9qMMO4KQsIvBlwD2RKGt7fQFjNTRnar/view?usp=drive_link"],
         ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1G37AoTxya2d_cMHhZsKyMuGNnhV4WyNO/view?usp=drive_link"],
         ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1gsuIAfRmDL7CwsNuri-51TTSySoIt6Kq/view?usp=drive_link"],
         ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1c4jodBf1C4XJRFWI8vuJUD7yoMZP3BCy/view?usp=drive_link"],

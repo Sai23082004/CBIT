@@ -124,7 +124,7 @@ const DownloadPageTwo = () => {
             ["https://drive.google.com/file/d/1GWchwmrxPznIJNg8M6Sl91r3fGcuBOd7/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1DpZ61Zm5bmpuRh1Bec9TF513j-8k_0Rg/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1gMOHn3BA3UF5kxhXpJ5-amR1ExYr9Wgu/view?usp=sharing"],
             ["https://drive.google.com/file/d/19UvArFR1gm7ApFB-_6zQ93Jvr1T4N0nJ/view?usp=sharing","https://drive.google.com/file/d/1nXFqX2qsMUEr0RN96nIPCT2ll1XAEhzD/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1xY97e09oyo7V2YPj30M2BYlk5K7uvoR9/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],
         [
@@ -132,8 +132,8 @@ const DownloadPageTwo = () => {
             ["https://drive.google.com/file/d/1sVGO8seXcyuiEZkiSEJ6MHs3QNCHpF3P/view?usp=sharing","https://drive.google.com/file/d/1qgitSIdjqxnzl4KcU6a2S9611zK9PAO5/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1UN4lJPFqCRvRwhHGyNOhuggHJNYUKUaL/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1usB4GECG4RFFVlo2ZMTY_a0q6_gvRZbV/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1xSM8_2yX5Vvl5MT9H0pOzW9XDuVq81V0/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1xY97e09oyo7V2YPj30M2BYlk5K7uvoR9/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/13F_XgTrXX6sw1ex0Eeat7Dc9-XH_QNyv/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],
         [
@@ -141,7 +141,7 @@ const DownloadPageTwo = () => {
             ["https://drive.google.com/file/d/1iz08Au4lEsZMKqoGSdeIzl0I9Nw4iHBx/view?usp=sharing","https://drive.google.com/file/d/10Zg9EjcZ6u_E3C3DLT5sVtpSig0ECGe3/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/19RiPpAVtpbWmJundbsyhjxNU4AQMrtbJ/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1VbpWOFvD7uby2F2bDw5z_7gzfp2iU27p/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1G0l20SOOqomZrcXw7whtr5CsFYUJ60WB/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1xY97e09oyo7V2YPj30M2BYlk5K7uvoR9/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],
@@ -150,7 +150,7 @@ const DownloadPageTwo = () => {
             ["https://drive.google.com/file/d/1oeYC3-HN4ycKka2xsQYEIumFxEw9MThK/view?usp=sharing","https://drive.google.com/file/d/1pH_5tPXGooMB7UKLf1FVfaJKi0p4lkjb/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1UXWzld-Ld6VTZyYZ7rwgDGfXNOmRv4UQ/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1jhK0fOwG-KgkQQQXsHP8lpvgNdtejFEj/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1tHSKGq2FWXrfZbcgh20lzaG_4hpeFlWI/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1xY97e09oyo7V2YPj30M2BYlk5K7uvoR9/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
             ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],

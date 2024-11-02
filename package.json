@@ -13,11 +13,14 @@
     "locomotive-scroll": "^4.1.4",
     "preact": "^10.24.1",
     "react-bootstrap": "^2.10.4",
+    "react-multilevel-dropdown": "^4.0.0",
+    "react-nested-menu-selector": "^0.1.0",
     "react-router-dom": "^6.26.0",
     "smooth-scrollbar": "^8.8.4"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.9.0",
+    "sass-embedded": "^1.80.6",
     "vite": "^5.4.0"
   }
 }

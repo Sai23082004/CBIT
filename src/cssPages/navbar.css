@@ -72,6 +72,39 @@
         animation: tony 5s ease-in infinite;
         filter: saturate(150%);
     }
+
+    /* Adjust the positioning of nested dropdown menus */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    margin-top: 0;
+  }
+  
+  /* Show the dropdown when hovering over the parent item */
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  /* Style for second-level dropdowns (submenus) */
+  .dropdown-item.dropdown .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0;
+    display: none;
+  }
+  
+  .dropdown-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-item:hover .dropdown-menu {
+    display: block;
+  }
+  
     
     @keyframes tony {
         0% {

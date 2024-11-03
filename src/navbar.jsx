@@ -21,6 +21,13 @@ function Navbar() {
     const [student, setstudent] = useState(false)
     const [student2, setstudent2] = useState(false)
     const [student3, setstudent3] = useState(false)
+    const [ece, setece] = useState(false)
+    const [eee, seteee] = useState(false)
+    const [mech, setmech] = useState(false)
+    const [civil, setcivil] = useState(false)
+    const [cseds, setcseds] = useState(false)
+    const [cseai, setcseai] = useState(false)
+    const [cseaiml, setcseaiml] = useState(false)
 
     const navigate = useNavigate()
 
@@ -47,7 +54,7 @@ function Navbar() {
                     <li>
                         <div className="d-flex fs-6 flex-column">
                             <div className="d-flex align-items-center py-2 justify-content-between w-100">
-                                <li onClick={() => navigate('/download')} ><span className='span fs-6'>Student Corner</span></li>
+                                <li  ><span className='span fs-6'>Student Corner</span></li>
 
                                 <i onClick={() => setstudent(!student)} style={{ fontSize: "" }} className="fa-solid border rounded-circle border-dark p-2 text-dark fa-chevron-down ms-3"></i>
 
@@ -57,7 +64,7 @@ function Navbar() {
                                 student &&
                                 <div style={{ zIndex: 999, background: "#6755A3" }} className="fs-6 gap-3 d-flex flex-column p-2">
 
-                                    <li onClick={() => navigate('/download')} className="d-flex align-items-center justify-content-between ">
+                                    <li className="d-flex align-items-center justify-content-between ">
 
                                         <a className="dropdown-item" >Btech</a>
                                         <i onClick={() => setstudent2(!student2)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
@@ -66,10 +73,10 @@ function Navbar() {
 
                                     {
 
-                                       student2 &&
+                                        student2 &&
                                         <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
 
-                                            <li onClick={() => navigate('/download')} className="d-flex align-items-center justify-content-between ">
+                                            <li className="d-flex align-items-center justify-content-between ">
 
                                                 <a className="dropdown-item" >CSE</a>
                                                 <i onClick={() => setstudent3(!student3)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
@@ -81,9 +88,10 @@ function Navbar() {
                                                 student3 &&
                                                 <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
 
-                                                    <li onClick={() => navigate('/download')} className="d-flex align-items-center justify-content-between ">
+                                                    <li className="d-flex align-items-center justify-content-between ">
 
-                                                        <a className="dropdown-item" >R23</a>
+
+                                                        <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23 - REGULATION </a> </li>
                                                         {/* <i onClick={() => setstudent(!student)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i> */}
 
                                                     </li>
@@ -93,12 +101,177 @@ function Navbar() {
                                                 </div>
 
                                             }
-                                            <li onClick={() => navigate('/downloadthree')} > <a className="dropdown-item" >EEE</a></li>
-                                            <li onClick={() => navigate('/downloadthree')} > <a className="dropdown-item" >ECE</a></li>
+
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >CSE(DS)</a>
+                                                <i onClick={() => setcseds(!cseds)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                cseds &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/downloadcseds')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >CSE (AI)</a>
+                                                <i onClick={() => setcseai(!cseai)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                cseai &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/downloadcseai')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >CSE (AI & ML )</a>
+                                                <i onClick={() => setcseaiml(!cseaiml)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                cseaiml &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/downloadcseaiml')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >ECE</a>
+                                                <i onClick={() => setece(!ece)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                ece &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/downloadece')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >EEE</a>
+                                                <i onClick={() => seteee(!eee)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                eee &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/downloadeee')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >MECHANICAL</a>
+                                                <i onClick={() => setmech(!mech)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                mech &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/download')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+                                            <li className="d-flex align-items-center justify-content-between ">
+
+                                                <a className="dropdown-item" >CIVIL</a>
+                                                <i onClick={() => setcivil(!civil)} style={{ fontSize: "" }} className="fa-solid mt-1 border rounded-circle border-light p-2 text-light fa-chevron-down ms-3"></i>
+
+                                            </li>
+
+                                            {
+
+                                                civil &&
+                                                <div style={{ zIndex: 999, background: "#B19BEE" }} className="fs-6 gap-3 d-flex flex-column p-2">
+
+                                                    <li onClick={() => navigate('/download')} className="d-flex align-items-center justify-content-between ">
+
+                                                        <a className="dropdown-item" >R23 - REGULATION </a>
+
+                                                    </li>
+
+                                                </div>
+
+                                            }
+
+
+
 
                                         </div>
 
                                     }
+
+
 
 
                                     <li onClick={() => navigate('/downloadthree')} > <a className="dropdown-item" >MBA </a></li>
@@ -435,59 +608,160 @@ function Navbar() {
                                             <span>B.tech</span>
                                             <i style={{ fontSize: "12px", position: 'relative', left: '150px' }} className="fa-solid fa-chevron-right ms-3"></i>
                                         </div>
-                                        <div className="sub-dropdown-menu  flex-column ps-3 fs-6 ">
+                                        {/* btech lopalata  */}
+                                        <div className="sub-dropdown-menu gap-3 pb-2  flex-column ps-3 fs-6 ">
 
-                                            <li  ><a className="sub-sub-dropdown-item" >
+                                            <li >
+                                                <a className="sub-sub-dropdown-item" >
 
-                                                <div className="sub-sub-dropdown fs-6">
-                                                    <div className="d-inline-flex align-items-center">
-                                                        <span>EEE</span>
-                                                        <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+
+                                                        {/* betch lopata lopata  */}
+                                                        <div className="sub-sub-dropdown-menu ps-5 fs-6 ">
+
+                                                            {/* <li  ><a className="dropdown-item" >R23-REGULATION</a></li> */}
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+                                                            {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
+                                                            {/* <li  ><a className="dropdown-item" >ECE</a></li> */}
+
+                                                        </div>
                                                     </div>
-                                                    <div className="sub-sub-dropdown-menu fs-6 ">
 
-                                                        <li  ><a className="dropdown-item" >CSE</a></li>
-                                                        {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
-                                                        {/* <li  ><a className="dropdown-item" >ECE</a></li> */}
+                                                </a>
+                                            </li>
 
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>ECE</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li  ><a className="dropdown-item" >R23-REGULATION</a></li>
+                                                            {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
+                                                            {/* <li  ><a className="dropdown-item" >ECE</a></li> */}
+
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                            </a></li>
+                                                </a>
+                                            </li>
 
-                                            <li  ><a className="sub-sub-dropdown-item" >
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
 
-                                                <div className="sub-sub-dropdown fs-6">
-                                                    <div className="d-inline-flex align-items-center">
-                                                        <span>ECE</span>
-                                                        <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>EEE</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
                                                     </div>
-                                                    <div className="sub-sub-dropdown-menu fs-6 ">
 
-                                                        <li  ><a className="dropdown-item" >CSE</a></li>
-                                                        {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
-                                                        {/* <li  ><a className="dropdown-item" >ECE</a></li> */}
+                                                </a>
+                                            </li>
 
+
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>MECHANICAL</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                            </a></li>
+                                                </a>
+                                            </li>
 
-                                            <li  ><a className="sub-sub-dropdown-item" >
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
 
-                                                <div className="sub-sub-dropdown fs-6">
-                                                    <div className="d-inline-flex align-items-center">
-                                                        <span>CSE</span>
-                                                        <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CIVIL</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
                                                     </div>
-                                                    <div className="sub-sub-dropdown-menu fs-6 ">
 
-                                                        <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23</a></li>
+                                                </a>
+                                            </li>
 
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(DS)</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                            </a></li>
+                                                </a>
+                                            </li>
+
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(AI)</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
+                                                    </div>
+
+                                                </a>
+                                            </li>
+
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(AI & ML )</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+
+                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
+                                                    </div>
+
+                                                </a>
+                                            </li>
 
                                         </div>
                                     </div>

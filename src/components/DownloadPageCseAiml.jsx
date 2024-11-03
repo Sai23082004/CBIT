@@ -3,7 +3,7 @@ import Navbar from "../navbar"
 
 
 
-const DownloadPage = () =>
+const DownloadPageCseAiml = () =>
 {
     const semisters = [
         "Under Graduate(B.Tech) (AUTONOMOUS) R23 Regulations"
@@ -124,12 +124,12 @@ const DownloadPage = () =>
     ]
     const twoonep = [
         [
-            "Discrete Mathematics & Graph Theory ", 
+            "Discrete Mathematics & Graph Theory ",
             "Universal Human Values 2",
-            "Advanced Data Structures & Algorithms Analysis", 
+            "Advanced Data Structures & Algorithms Analysis",
             "Object-Oriented Programming Through JAVA ",
-            "Digital Logic and Computer Organization ",
-            "Environmental Science"
+            "Environmental Science",
+            "Artificial Intelligence "
         ],
     ]
     const twooned = [
@@ -145,12 +145,12 @@ const DownloadPage = () =>
     ]
     const twoonedf = [
         [
-            ["https://drive.google.com/file/d/1OA1RbB-0wq5ZSe3lzwwppS36IvsrUTLy/view?usp=sharing","https://drive.google.com/file/d/1StUNnJE9ZHi8d6gX-vW0H28ISJLeJvMZ/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1GxA8bD9h3B8pKnAw0d6PAsh25T87OqTP/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1WzZEZGf64r022nlR2Apyan7qN00GUIzs/view?usp=sharing","https://drive.google.com/file/d/1ogee9D4lgqYfJfBx1WSGBPpaYAd4sfjB/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1GWchwmrxPznIJNg8M6Sl91r3fGcuBOd7/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
-            ["https://drive.google.com/file/d/1DpZ61Zm5bmpuRh1Bec9TF513j-8k_0Rg/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1gMOHn3BA3UF5kxhXpJ5-amR1ExYr9Wgu/view?usp=sharing"],
-            ["https://drive.google.com/file/d/19UvArFR1gm7ApFB-_6zQ93Jvr1T4N0nJ/view?usp=sharing","https://drive.google.com/file/d/1nXFqX2qsMUEr0RN96nIPCT2ll1XAEhzD/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1yo8DaEDPKSDSkgiZTZ11jzekn3juyjpv/view?usp=sharing","https://drive.google.com/file/d/1PYYcu0QHRviMgtpMsXEfQuq5P0CVlI_Z/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1zn-iwvpkLjWNQMgXUniQbhgPOAVZTpLE/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1oeYC3-HN4ycKka2xsQYEIumFxEw9MThK/view?usp=sharing","https://drive.google.com/file/d/1pH_5tPXGooMB7UKLf1FVfaJKi0p4lkjb/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1UXWzld-Ld6VTZyYZ7rwgDGfXNOmRv4UQ/view?usp=sharing","https://drive.google.com/file/d/1VME0WHgOKetvSTC745qy8nkzfQVjOA-u/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1jhK0fOwG-KgkQQQXsHP8lpvgNdtejFEj/view?usp=sharing","https://drive.google.com/file/d/1qW4DpomNnu5okXGW1cllJGUjt6ftl0ha/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1tHSKGq2FWXrfZbcgh20lzaG_4hpeFlWI/view?usp=sharing"],
             ["https://drive.google.com/file/d/1xY97e09oyo7V2YPj30M2BYlk5K7uvoR9/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
+            ["https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing","https://drive.google.com/file/d/1kpI78O4wXThyWRhsCh4sbYgM3IqRRv5r/view?usp=sharing"],
 
         ],
     
@@ -165,7 +165,7 @@ const DownloadPage = () =>
 
             <div className="position-relative w-100">
                 <Navbar />
-                <h1 className="text-center fw-bold mt-5 fs-1" >DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+                <h1 className="text-center fw-bold mt-5 fs-1" >Department of CSE (Artificial Intelligence & Machine Learning)
                 </h1>
                 {/* imge */}
 
@@ -346,4 +346,4 @@ const SemisterPaperDownloads = ({ data, value, ind, ind2, pdfFiles }) => {
     </>
 
 }
-export default DownloadPage
+export default DownloadPageCseAiml

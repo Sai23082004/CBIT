@@ -634,6 +634,64 @@ function Navbar() {
                                                 </a>
                                             </li>
 
+                                            
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(DS)</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
+
+                                                            <li onClick={() => navigate('/downloadcseds')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
+                                                    </div>
+
+                                                </a>
+                                            </li>
+
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(AI)</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
+
+                                                            <li onClick={() => navigate('/downloadcseai')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
+                                                    </div>
+
+                                                </a>
+                                            </li>
+
+                                            <li  >
+                                                <a className="sub-sub-dropdown-item" >
+
+                                                    <div className="sub-sub-dropdown fs-6">
+                                                        <div className="d-inline-flex align-items-center">
+                                                            <span>CSE(AI & ML )</span>
+                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
+                                                        </div>
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
+
+                                                            <li onClick={() => navigate('/downloadcseaiml')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+
+                                                        </div>
+                                                    </div>
+
+                                                </a>
+                                            </li>
+
+
+
+
                                             <li  >
                                                 <a className="sub-sub-dropdown-item" >
 
@@ -642,10 +700,10 @@ function Navbar() {
                                                             <span>ECE</span>
                                                             <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
                                                         </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
 
-                                                            <li  ><a className="dropdown-item" >R23-REGULATION</a></li>
-                                                            {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
+                                                        <li onClick={() => navigate('/downloadece')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+                                                        {/* <li  ><a className="dropdown-item" >EEE</a></li> */}
                                                             {/* <li  ><a className="dropdown-item" >ECE</a></li> */}
 
                                                         </div>
@@ -662,9 +720,9 @@ function Navbar() {
                                                             <span>EEE</span>
                                                             <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
                                                         </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
 
-                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
+                                                            <li onClick={() => navigate('/downloadeee')} ><a className="dropdown-item" >R23-REGULATION</a></li>
 
                                                         </div>
                                                     </div>
@@ -681,7 +739,7 @@ function Navbar() {
                                                             <span>MECHANICAL</span>
                                                             <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
                                                         </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5">
 
                                                             <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
 
@@ -699,7 +757,7 @@ function Navbar() {
                                                             <span>CIVIL</span>
                                                             <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
                                                         </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
+                                                        <div className="sub-sub-dropdown-menu fs-6 ps-5 ">
 
                                                             <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
 
@@ -709,59 +767,6 @@ function Navbar() {
                                                 </a>
                                             </li>
 
-                                            <li  >
-                                                <a className="sub-sub-dropdown-item" >
-
-                                                    <div className="sub-sub-dropdown fs-6">
-                                                        <div className="d-inline-flex align-items-center">
-                                                            <span>CSE(DS)</span>
-                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
-                                                        </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
-
-                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
-
-                                                        </div>
-                                                    </div>
-
-                                                </a>
-                                            </li>
-
-                                            <li  >
-                                                <a className="sub-sub-dropdown-item" >
-
-                                                    <div className="sub-sub-dropdown fs-6">
-                                                        <div className="d-inline-flex align-items-center">
-                                                            <span>CSE(AI)</span>
-                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
-                                                        </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
-
-                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
-
-                                                        </div>
-                                                    </div>
-
-                                                </a>
-                                            </li>
-
-                                            <li  >
-                                                <a className="sub-sub-dropdown-item" >
-
-                                                    <div className="sub-sub-dropdown fs-6">
-                                                        <div className="d-inline-flex align-items-center">
-                                                            <span>CSE(AI & ML )</span>
-                                                            <i style={{ fontSize: "12px" }} className="fa-solid fa-chevron-right ms-3"></i>
-                                                        </div>
-                                                        <div className="sub-sub-dropdown-menu fs-6 ">
-
-                                                            <li onClick={() => navigate('/download')} ><a className="dropdown-item" >R23-REGULATION</a></li>
-
-                                                        </div>
-                                                    </div>
-
-                                                </a>
-                                            </li>
 
                                         </div>
                                     </div>

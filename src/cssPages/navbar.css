@@ -1,122 +1,162 @@
+a {
+    color: rgba(240, 248, 255, 0.814);
+    text-decoration: none;
+}
 
+li {
+    list-style: none;
+}
 
-    
-    a {
-        color: rgba(240, 248, 255, 0.814);
-        text-decoration: none;
-    }
-    
-    li {
-        list-style: none;
-    }
-    
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        font-size: 10px;
-        font-weight: 20px;
-    }
-    
-    .dropdown:hover {
-        color: #FACA2A;
-        scale: 1.1;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    
-    .span {
-        font-size: 10px;
-    }
-    
-    .span:hover {
-        transition: 0.4s;
-        scale: 1.1px;
-        cursor: pointer;
-        color: #FACA2A;
-        font-size: 12px;
-    }
-    
-    .dropdown-menu {
-        display: none;
-        /* Initially hide the dropdown menu */
-        position: absolute;
-        top: 100%;
-        left: 0;
-        color: aliceblue;
-        background-color: #7455a3;
-        border: none;
-        padding-top: 12px;
-        font-size: 10px;
-        width: 250px;
-        z-index: 999;
-    }
-    
-    .dropdown:hover .dropdown-menu {
-        display: block;
-        /* Show dropdown on hover */
-    }
-    
-    .dropdown-item {
-        color: #ffffff;
-        margin-top: 10px;
-        z-index: 999;
-    }
-    
-    .dropdown-item:hover {
-        color: #FACA2A;
-        background-color: transparent;
-        transition: 0.4s;
-    }
-    
-    .image {
-        animation: tony 5s ease-in infinite;
-        filter: saturate(150%);
-    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 20px;
+}
 
-    /* Adjust the positioning of nested dropdown menus */
+.dropdown:hover {
+    color: #FACA2A;
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.span {
+    font-size: 10px;
+}
+
+.span:hover {
+    transition: 0.4s;
+    scale: 1.1px;
+    cursor: pointer;
+    color: #FACA2A;
+    font-size: 12px;
+}
+
 .dropdown-menu {
+    display: none;
+    /* Initially hide the dropdown menu */
     position: absolute;
     top: 100%;
     left: 0;
+    color: aliceblue;
+    background-color: #7455a3;
+    border: none;
+    padding-top: 12px;
+    font-size: 10px;
+    width: 250px;
+    z-index: 999;
+}
+
+.sub-dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 20px;
+    /* width: 100%; */
+}
+
+.sub-dropdown:hover {
+    color: #FACA2A;
+    scale: 1.01;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-dropdown-menu {
     display: none;
-    margin-top: 0;
-  }
-  
-  /* Show the dropdown when hovering over the parent item */
-  .dropdown:hover > .dropdown-menu {
-    display: block;
-  }
-  
-  /* Style for second-level dropdowns (submenus) */
-  .dropdown-item.dropdown .dropdown-menu {
+    /* Initially hide the dropdown menu */
+    position: absolute;
+    top: 0;
+    left: 300%;
+    /* Position it to the right of the dropdown */
+    color: aliceblue;
+    background-color: #7455a3;
+    border: none;
+    padding-top: 12px;
+    font-size: 10px;
+    width: 250px;
+    z-index: 999;
+}
+
+.sub-dropdown:hover .sub-dropdown-menu {
+    display: flex;
+    /* Show dropdown on hover */
+}
+
+.sub-sub-dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 20px;
+}
+
+.sub-sub-dropdown:hover {
+    color: #FACA2A;
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub-sub-dropdown-menu {
+    display: none;
+    /* Initially hide the dropdown menu */
+    position: absolute;
     top: 0;
     left: 100%;
-    margin-top: 0;
-    display: none;
-  }
-  
-  .dropdown-item {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  
-  .dropdown-item:hover .dropdown-menu {
+    /* Position it to the right of the dropdown */
+    color: aliceblue;
+    background-color: #7455a3;
+    border: none;
+    padding-top: 12px;
+    font-size: 10px;
+    width: 250px;
+    z-index: 999;
+}
+
+.sub-sub-dropdown:hover .sub-sub-dropdown-menu {
     display: block;
-  }
-  
-    
-    @keyframes tony {
-        0% {
-            scale: 1.1;
-        }
-        50% {
-            scale: 1.3;
-        }
-        75% {
-            scale: 1.4;
-        }
-        100% {
-            scale: 1.5;
-        }
+    /* Show dropdown on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    /* Show dropdown on hover */
+}
+
+.dropdown-item {
+    color: #ffffff;
+    margin-top: 10px;
+    z-index: 999;
+    /* width: 250px; */
+}
+
+.dropdown-item:hover {
+    color: #FACA2A;
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+.image {
+    animation: tony 5s ease-in infinite;
+    filter: saturate(150%);
+}
+
+
+@keyframes tony {
+    0% {
+        scale: 1.1;
     }
+
+    50% {
+        scale: 1.3;
+    }
+
+    75% {
+        scale: 1.4;
+    }
+
+    100% {
+        scale: 1.5;
+    }
+}

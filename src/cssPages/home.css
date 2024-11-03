@@ -15,7 +15,7 @@ body{
         /* Position the background stars */
         background-position: center;
         
-        /* Adjust star size and repetition */
+        /* Adjust star size and repetition */ 
         background-size: contain;
         background-repeat: no-repeat;
     
